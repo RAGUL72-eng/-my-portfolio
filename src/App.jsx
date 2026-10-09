@@ -874,7 +874,7 @@ function Contact() {
                   href: PROFILE.github,
                   ext: true,
                 },
-                { k: "Work mode", v: PROFILE.workMode },
+                
               ].map((row) => (
                 <div key={row.k}>
                   <dt style={{ color: C.muted, fontSize: "0.85rem" }}>{row.k}</dt>
