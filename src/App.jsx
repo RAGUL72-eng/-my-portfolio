@@ -134,7 +134,7 @@ year: "2024",
 {
 degree: "Higher Secondary (12th Grade)",
 school: "",
-year: "",
+year: "2021",
 },
 ];
  
