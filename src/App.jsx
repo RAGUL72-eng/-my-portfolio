@@ -15,7 +15,6 @@ const PROFILE = {
   githubHandle: "RAGUL72-eng",
   linkedin: "https://www.linkedin.com/in/v-Ragul",
   linkedinHandle: "v-Ragul",
-  workMode: "Hybrid",
 };
  
 const NAV = [
@@ -138,9 +137,6 @@ school: "",
 year: "",
 score: "Percentage: 78%",
 },
-];
-,
-  },
 ];
  
 const CERTIFICATES = [
@@ -790,19 +786,17 @@ function Education() {
                   {e.school && (
                     <p style={{ color: C.muted, margin: "6px 0 0" }}>{e.school}</p>
                   )}
-       
-{e.score && !e.score.startsWith("CGPA:") && (
-  <p
-    style={{
-      color: C.accent,
-      margin: "6px 0 0",
-      fontSize: "0.9rem",
-    }}
-  >
-    {e.score}
-  </p>
-)}
-                  </p>
+                  {e.score && !/^CGPA\s*:/i.test(e.score) && (
+                    <p
+                      style={{
+                        color: C.accent,
+                        margin: "6px 0 0",
+                        fontSize: "0.9rem",
+                      }}
+                    >
+                      {e.score}
+                    </p>
+                  )}
                 </div>
                 {e.year && (
                   <span
