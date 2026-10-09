@@ -790,8 +790,15 @@ function Education() {
                   {e.school && (
                     <p style={{ color: C.muted, margin: "6px 0 0" }}>{e.school}</p>
                   )}
-               {e.score && !e.score.startsWith("CGPA:") && (
-  <p style={{ color: C.accent, margin: "6px 0 0", fontSize: "0.9rem" }}>
+       
+{e.score && !e.score.startsWith("CGPA:") && (
+  <p
+    style={{
+      color: C.accent,
+      margin: "6px 0 0",
+      fontSize: "0.9rem",
+    }}
+  >
     {e.score}
   </p>
 )}
