@@ -122,23 +122,24 @@ const PROJECTS = [
 ];
  
 const EDUCATION = [
-  {
-    degree: "Master of Computer Applications (MCA)",
-    school: "K.S.R. College of Engineering, Tiruchengode",
-    year: "2026",
-    score: "CGPA: 6.9",
-  },
-  {
-    degree: "B.Sc. Information Technology",
-    school: "Gobi Arts and Science College, Gobi",
-    year: "2024",
-    score: "CGPA: 4.9",
-  },
-  {
-    degree: "Higher Secondary (12th Grade)",
-    school: "",
-    year: "",
-    score: "Percentage: 78%",
+{
+degree: "Master of Computer Applications (MCA)",
+school: "K.S.R. College of Engineering, Tiruchengode",
+year: "2026",
+},
+{
+degree: "B.Sc. Information Technology",
+school: "Gobi Arts and Science College, Gobi",
+year: "2024",
+},
+{
+degree: "Higher Secondary (12th Grade)",
+school: "",
+year: "",
+score: "Percentage: 78%",
+},
+];
+,
   },
 ];
  
